@@ -1,0 +1,297 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(0, 100, 0);
+    padding: 1px;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+}
+h2{
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+h3{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h4{
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+nav{
+    width:auto;
+    height:min-content;
+            /* only for demonstration, should be removed */
+    background-color:#9f947d;
+     padding: 20px;
+    text-align: right;
+    font-size:18px;
+}
+a {
+    background-color:#9f947d;
+    color: #ffffff;
+    padding: 5px 25px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+}
+a:hover
+{
+     color:#191b1c;
+     text-decoration:none;
+     cursor:pointer;
+}
+img{
+    display:flex;
+    margin: left 1px;;
+    margin:right 1px;;
+    width: 35%;
+}
+.icono{
+    margin: 1px 1px 1px 350px;
+    width: 50px;
+}
+.frase{
+    margin: -57px 8px 15px 0px;
+}
+article{
+    text-align:left;
+    text-indent: 50px;
+    margin: 10px 8px 15px 0px;
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 40px;
+}
+.historia
+{
+    margin: -350px 100px 200px 500px;
+    padding: 10px 0px 5px 0px;
+
+}
+.DatPer{
+    margin: 10px 100px 20px 110px;
+    padding: 10px 0px 5px 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+.eventos-contenedor{
+    display: flex;
+    height: 300px;
+    background-color: #ffffff;
+}
+.evento{
+  background-color: #f1eee0;
+  width: 200px;
+  margin: 10px 80px 65px 90px;
+  text-align:justify;
+  line-height: 10px;
+  flex: 1 1 300px;
+}
+.cata{
+    display:flex;
+    margin: 20px 1px 1px 1px;
+    width: 90%;
+    height: 60%;
+}
+textarea {
+    width:50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize:horizontal;
+    align-self: center;
+  }
+  input[type=text], input[type=tel], input[type=email] {
+    width:25%;
+    height: 10px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    margin: 0px 550px 0px 200px;
+    float:right;
+  }
+  input[type=button], input[type=submit], input[type=reset] {
+    background-color: #8a7f82;
+    border: none;
+    color: white;
+    padding: 25px 50px;
+    text-decoration: none;
+    margin: 30px 50px;
+    text-size-adjust:unset;
+
+  }
+.tabla1
+/*{
+  /*
+    border: 1px solid black;
+    background-color: rgb(218, 216, 198);
+    margin: -450px 100px 200px 600px;
+    padding: 10px 0px 5px 0px;
+    text-align: center;
+  }
+  th,td {
+    height: 50px;
+    width: 250px;
+  }*/
+  {
+   width: 100%;
+   border: 1px solid #000;
+   color: #fff;
+}
+th, td {
+   border-collapse: separate;
+   background: #fff;
+   width: 25%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+   border-spacing: 0;
+   color: #000;
+}
+
+.tabla2{
+    border: 1px solid black;
+    background-color: rgb(230, 235, 229);
+    margin: 250px 800px 10px 100px;
+    padding: 10px 0px 25px 20px;
+    text-align:justify;
+}
+.tabla3{
+    border: 1px solid black;
+    background-color: rgb(216, 219, 223);
+    margin: -970px 100px 0px 800px;
+    padding: 10px 0px 25px 20px;
+    text-align:justify;
+
+}
+.tabla4,.tabla5{
+    border: 1px solid black;
+    background-color: rgba(235, 176, 204, 0.47);
+    margin: 30px 100px 10px 800px;
+    padding: 10px 0px 25px 20px;
+    text-align:justify;
+
+}
+.tAdmin{
+    border: 1px solid black;
+    background-color: rgba(231, 207, 152, 0.289);
+    margin: 30px 1px 10px 1px;
+    padding: 10px 0px 25px 20px;
+    text-align:center;
+    font-size: 14px;
+}
+tr:hover {
+    background-color: #f5f5f5;
+  }
+
+.Portada
+{
+    display:flex;
+    margin: 1px 10px 10px 0px;
+    width: 95%;
+    height: 100%;
+}
+.Pedidos
+{
+    margin:0 0 0 -50% 0;
+    width: 100%;
+    height: 10%;
+}
+.Almacen
+{
+    margin:0 0 0 -50% 0;
+    width: 100%;
+    height: 10%;
+}
+p{
+    font-style: normal;
+    font-variant: normal;
+    font-size: 12px/14px;
+    line-height: normal;
+}
+.CentarImg{
+    border: 1px solid black;
+    background-color: rgba(250, 249, 253, 0.508);
+    margin: -370px 1px 10px 1px;
+    padding: 10px 0px 25px 20px;
+    font-size: 100px;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 20px;
+    font:italic
+}
+.boton{
+    display: block;
+    border: 3px solid rgb(153, 50, 96);
+  cursor: pointer;
+  margin: 10px 10px 10px 50px;
+
+}
+
+footer {
+    background-color: rgb(0, 100, 0);
+    padding: 5px;
+    text-align:left;
+    color: white;
+}
+.contenedor-Almacen {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    background-color: #ffffff;
+    align-content:stretch ;
+  }
+  .EventA{
+    background-color:aliceblue;
+  color: rgb(0, 0, 0);
+  width: 150px;
+  height: 300px;
+  margin: 50px 200px 65px 200px;
+  text-align:end;
+  line-height: 25px;
+  font-size: 15px;
+  align-content: stretch;
+  align-items:stretch;
+  flex: 1 1 300px;
+  }
+  input[type="number"]{
+    width:90px;
+    height: 10px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    margin: 0px 50px 0px 10px;
+    text-align:center;
+  }
+  .Direccion{
+    width:auto;
+    height:min-content;
+            /* only for demonstration, should be removed */
+    background-color:#9f947d;
+     padding: 20px;
+    text-align:center;
+    font: size 12px;;
+  }
